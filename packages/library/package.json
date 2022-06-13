@@ -1,0 +1,27 @@
+{
+  "name": "library",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/types.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint *.ts*",
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.12",
+    "@types/react-dom": "17.0.11",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "react": "18.1.0",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "react-dom": "18.1.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "redux-persist": "^6.0.0"
+  }
+}
