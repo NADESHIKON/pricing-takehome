@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import { has } from 'library';
+import { has } from '@nadeshikon/accessibility';
 import { Ranks } from '../lib/ranks';
 
 // Test 1 - People without HERO rank or above will be redirected to the home page

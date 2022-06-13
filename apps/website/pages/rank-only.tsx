@@ -1,7 +1,6 @@
-import { useRank } from 'library/hook';
-import { has } from 'library';
+
 import { Ranks } from '../lib/ranks';
-import Accessible from 'library/accessible';
+import Accessible from '@nadeshikon/accessibility/accessible';
 
 // Test 1: This page is only open to
 export default function RankOnly() {

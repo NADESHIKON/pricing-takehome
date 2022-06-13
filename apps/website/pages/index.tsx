@@ -1,7 +1,7 @@
-import Accessible from 'library/accessible';
+import Accessible from '@nadeshikon/accessibility/accessible';
 import { Ranks } from '../lib/ranks';
-import { change, demote, has, promote } from 'library';
-import { useRank } from 'library/hook';
+import { change, demote, has, promote } from '@nadeshikon/accessibility';
+import { useRank } from '@nadeshikon/accessibility/hook';
 
 // There are multiple tests here
 // Test 1: User needs at least `VIP` rank to see a certain text, otherwise text does not show up
